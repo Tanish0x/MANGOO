@@ -185,7 +185,7 @@ export default function MangoProductPage() {
       <style jsx>{scrollbarHideStyle}</style>
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <nav className="flex space-x-8">
               <a href="#" className="text-xs font-normal text-[rgb(19,19,19)] hover:text-gray-600 tracking-wider">
@@ -220,7 +220,7 @@ export default function MangoProductPage() {
       </header>
 
       {/* Main Product Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Image Gallery */}
           <div className="relative">
@@ -337,7 +337,7 @@ export default function MangoProductPage() {
       </div>
 
       {/* Product Description Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
             <h2 className="text-xl font-bold mb-4">DESCRIPTION</h2>
@@ -360,7 +360,7 @@ export default function MangoProductPage() {
       </div>
 
       {/* In The Same Style Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
         <h2 className="text-xl font-bold mb-8">IN THE SAME STYLE</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {relatedProducts.map((product) => (
@@ -383,7 +383,7 @@ export default function MangoProductPage() {
       </div>
 
       {/* Combines Perfectly Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 border-t">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-xl font-bold">COMBINES PERFECTLY</h2>
           <div className="flex space-x-2">
